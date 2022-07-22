@@ -1,0 +1,48 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.dropdown_button{
+  background-color: #0750ec;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  font-size: 2em;
+  padding: 14px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 1;
+  box-shadow: 5px 10px 10px  rgba(157, 21, 255, 0.954);
+
+}
+
+
+.dropdown_list{
+  background-color: rgb(255, 0, 76);
+  width:400px;
+  text-align: center;
+  display: none;
+  position: absolute;
+}
+
+.dropdown_list a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 25px;
+ 
+}
+
+.dropdown_list a:hover{
+  background-color: rgb(38, 255, 0);
+  color: black;
+  font-size: 2em;
+}
+/* for dropdown effect */
+.dropdown:hover .dropdown_list{
+  display: block;
+}
+.dropdown{
+  float: left;
+}
